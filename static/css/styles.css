@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F2F2F2;
+  padding: 0 16px;
+  overflow-x: hidden;
+  font-family: "Noto Znamenny Musical Notation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 2rem;
+  margin-top: auto;
+  font-family: "Noto Znamenny Musical Notation", sans-serif;
+  color: #678C2E;
+  font-size: 1rem;
+}
+
+header {
+  margin: 0 -16px auto -16px;
+  padding: 10px 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.title {
+  padding-right: 1rem;
+  color: #678C2E;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.desc {
+  font-family: "Noto Znamenny Musical Notation", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2rem;
+  color: #678C2E;
+  letter-spacing: 5px;
+  max-width: 500px;
+  overflow-wrap: break-word;
+}
+
+.letter_spacing {
+  letter-spacing: 5px;
+}
+
+.main_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_start {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: white;
+  color: #678C2E;
+  border: 2px solid #678C2E;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 200px;
+}
+
+.btn_start:hover {
+  background-color: #678C2E;
+  color: white;
+}
+
+.main_part > textarea {
+  font-size: 1rem;
+  width: 80%;
+  max-width: 400px;
+}
+
+#copyToClipboard-a {
+  border: none;
+  background-color: white;
+}
+
+#textArea {
+  font-size: 1.5rem;
+  padding-left: 5px;
+   width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (
+
